@@ -1,3 +1,4 @@
+/* Estilo con elementos <li> en puntos */
 
 .body {
   background-color: #F9F5E8;
@@ -24,12 +25,12 @@ header {
 }
 
 ul {
-  margin-left: auto; 
-  list-style-type: none; 
+  list-style-type: disc; /* Cambio del estilo de viñetas a puntos */
+  padding-left: 0; /* Eliminación del relleno predeterminado de la lista */
 }
 
 li {
-  display: inline-block;
+  display: list-item; /* Restauración del comportamiento predeterminado de los elementos <li> */
   background-color: #D8D8D8;
   font-size: 18px;
   font-style: italic;
@@ -38,7 +39,8 @@ li {
   letter-spacing: 0.5px;
   text-decoration: underline;
   text-transform: capitalize;
-  margin-right: 20px;
+  text-indent: 0;
+  margin-bottom: 10px; /* Añadir espacio entre elementos de la lista */
 }
 
 a {
@@ -49,7 +51,7 @@ a {
 }
 
 .active {
-  background-color: transparent; 
+  background-color: #BDBDBD;
 }
 
 #titulo {
@@ -58,4 +60,3 @@ a {
   font-style: italic;
   margin-bottom: 20px;
 }
-
