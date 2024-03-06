@@ -26,20 +26,10 @@ header{
 }
 li {
     display: inline;
-    float: left;
-    background-color:#FFFFFF;
-    font-size:20px;
-    font-family:Courier;
-    font-weight:bold;
-    font-style:oblique;
-    line-height:30px;
-    letter-spacing:5px;
-    text-decoration:underline;
-    text-transform:capitalize;
-    text-align:left;
-    text-indent:30px;
   }
-
+li {
+    float: left;
+  }
   
 a {
     display: block;
