@@ -1,5 +1,5 @@
 body{
-    background-color:#FFF0C9;
+    background-color:#F0E68C;
     font-size:20px;
     font-family:Courier;
     font-weight:bold;
@@ -12,7 +12,7 @@ body{
     text-indent:30px;
 }
 header{
-    background-color:#E6E6FA;
+    background-color:#FFA07A;
     font-size:20px;
     font-family:Courier;
     font-weight:bold;
@@ -26,7 +26,7 @@ header{
 li {
     display: inline;
     float: left;
-    background-color:#E6E6FA;
+    background-color:#FFA07A;
     font-size:20px;
     font-family:Courier;
     font-weight:bold;
@@ -43,10 +43,10 @@ li {
 a {
     display: block;
     padding: 8px;
-    background-color:#E6E6FA;
+    background-color:#95df95;
   }
 .active {
-    background-color: #E6E6FA;
+    background-color: #95df95;
   }
 
   #titulo{

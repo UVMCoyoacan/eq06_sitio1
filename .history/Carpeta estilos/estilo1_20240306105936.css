@@ -26,7 +26,7 @@ header{
 li {
     display: inline;
     float: left;
-    background-color:#E6E6FA;
+    background-color:#F5F5DC;
     font-size:20px;
     font-family:Courier;
     font-weight:bold;
@@ -43,10 +43,10 @@ li {
 a {
     display: block;
     padding: 8px;
-    background-color:#E6E6FA;
+    background-color:#F5F5DC;
   }
 .active {
-    background-color: #E6E6FA;
+    background-color: #F5F5DC;
   }
 
   #titulo{

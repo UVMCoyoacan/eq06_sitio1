@@ -1,0 +1,54 @@
+.body {
+  background-color: #F0E68C; /* Amarillo claro para transmitir calidez y frescura */
+  font-size: 20px;
+  font-family: Arial, sans-serif; /* Fuente legible y moderna */
+  font-weight: bold;
+  font-style: normal;
+  line-height: 30px;
+  letter-spacing: 1px; /* Espaciado entre letras */
+  text-decoration: none;
+  text-transform: none;
+  text-align: left;
+  text-indent: 0;
+}
+
+header {
+  background-color: #FFA07A; /* Salmón claro para un toque suave y apetitoso */
+  font-size: 24px;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  font-style: italic;
+  line-height: 36px;
+  letter-spacing: 2px;
+  text-decoration: underline;
+  text-transform: capitalize;
+  text-align: center;
+  text-indent: 0;
+}
+
+li {
+  display: inline;
+  float: left;
+  background-color: #FFA07A; /* Mismo color del encabezado */
+  font-size: 20px;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  line-height: 30px;
+  letter-spacing: 1px;
+  text-decoration: none;
+  text-transform: capitalize;
+  text-align: left;
+  text-indent: 30px;
+}
+
+a {
+  display: block;
+  padding: 8px;
+  background-color: #32CD32; /* Verde lima para un toque fresco */
+  color: #FFFFFF;
+}
+
+.active {
+  background-color: #FFA07A; /* Color de fondo resaltado */
+}
