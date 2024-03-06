@@ -1,0 +1,56 @@
+.body {
+  background-color: #F9F5E8; /* Color de fondo ligeramente más suave */
+  font-size: 18px; /* Tamaño de fuente ligeramente reducido para una apariencia más moderna */
+  font-family: "Arial", sans-serif; /* Fuente predeterminada más legible */
+  font-weight: 500; /* Ajuste del peso de la fuente para un aspecto más equilibrado */
+  line-height: 1.6; /* Ajuste de la altura de línea para mejorar la legibilidad */
+  letter-spacing: 0.5px; /* Reducción del espaciado entre letras para una apariencia más limpia */
+  padding: 20px 30px; /* Ajuste del relleno para un diseño más espacioso */
+  text-transform: capitalize;
+  text-align: left;
+}
+
+header {
+  background-color: #D8D8D8; /* Color de encabezado más suave */
+  font-size: 22px; /* Tamaño de fuente ligeramente aumentado para enfatizar el encabezado */
+  font-style: italic; /* Estilo de fuente cambiado a cursiva para un aspecto más elegante */
+  line-height: 1.8; /* Ajuste de la altura de línea para un aspecto más espaciado */
+  letter-spacing: 1px;
+  text-indent: 30px;
+  border-style: solid; /* Cambio del estilo del borde a sólido para una apariencia más nítida */
+  border-width: 2px; /* Grosor del borde ajustado */
+  border-color: #BDBDBD; /* Color del borde más suave */
+
+
+li {
+  display: inline-block; /* Cambio a inline-block para una mejor disposición de los elementos */
+  background-color: #D8D8D8; /* Color de fondo del elemento de lista */
+  font-size: 18px;
+  font-style: italic; /* Estilo de fuente cambiado a cursiva para coincidir con el encabezado */
+  font-weight: 500;
+  line-height: 1.6;
+  letter-spacing: 0.5px;
+  text-decoration: underline;
+  text-transform: capitalize;
+  text-indent: 0; /* Eliminación de la sangría en la lista */
+  margin-right: 20px; /* Añadir espacio entre elementos de lista */
+}
+
+a {
+  display: block;
+  padding: 10px 20px; /* Ajuste del relleno para un aspecto más equilibrado */
+  background-color: #D8D8D8;
+  color: #000; /* Cambio del color del texto a negro para mejorar el contraste */
+}
+
+.active {
+  background-color: #BDBDBD; /* Color de fondo resaltado más suave */
+}
+
+#titulo {
+  text-decoration: underline;
+  font-size: 28px; /* Tamaño de fuente aumentado para el título */
+  font-style: italic;
+  margin-bottom: 20px; /* Añadir espacio debajo del título */
+}
+}

@@ -1,5 +1,5 @@
 body{
-  background-color:#f9f5e8;
+  background-color:#FFF0C9;
   font-size:20px;
   font-family:Courier;
   font-weight:bold;
@@ -12,7 +12,7 @@ body{
   text-indent:30px;
 }
 header{
-  background-color:#d8d8d8;
+  background-color:#E6E6FA;
   font-size:20px;
   font-family:Courier;
   font-weight:bold;
@@ -23,12 +23,11 @@ header{
   text-align:left;
   text-indent:30px;
   border-style: outset;
-  border-color: #bdbdbd;
 }
 li {
   display: inline;
   float: left;
-  background-color:#d8d8d8;
+  background-color:#E6E6FA;
   font-size:20px;
   font-family:Courier;
   font-weight:bold;
@@ -45,19 +44,13 @@ li {
 a {
   display: block;
   padding: 8px;
-  background-color:#d8d8d8;
+  background-color:#E6E6FA;
 }
 .active {
   background-color: #E6E6FA;
-  
 }
 
 #titulo{
   text-decoration: overline underline;
-  font-size:30px;
-  font-style:oblique;
 
-}
-ul {
-  margin-left: auto;
 }
