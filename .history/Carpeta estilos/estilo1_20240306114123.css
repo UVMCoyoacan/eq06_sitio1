@@ -8,6 +8,7 @@ body{
     letter-spacing:5px;
     padding: 28px;
     text-transform:capitalize;
+    text-align:left;
     text-indent:30px;
 }
 header{
@@ -19,7 +20,7 @@ header{
     line-height:30px;
     letter-spacing:5px;
     text-transform:capitalize;
-    text-align:right;
+    text-align:left;
     text-indent:30px;
     border-style: outset;
 }
