@@ -1,5 +1,5 @@
 body{
-  background-color:#F9F5E8;
+  background-color:#f9f5e8;
   font-size:20px;
   font-family:Courier;
   font-weight:bold;
@@ -12,7 +12,7 @@ body{
   text-indent:30px;
 }
 header{
-  background-color:#D8D8D8;
+  background-color:#d8d8d8;
   font-size:20px;
   font-family:Courier;
   font-weight:bold;
@@ -23,13 +23,13 @@ header{
   text-align:left;
   text-indent:30px;
   border-style: outset;
-  border-color: #BDBDBD;
+  border-color: #bdbdbd;
   
 }
 li {
   display: inline;
   float: left;
-  background-color:#D8D8D8;
+  background-color:#d8d8d8;
   font-size:20px;
   font-family:Courier;
   font-weight:bold;
@@ -46,10 +46,10 @@ li {
 a {
   display: block;
   padding: 8px;
-  background-color:#D8D8D8;
+  background-color:#d8d8d8;
 }
 .active {
-  background-color:transparent;
+  background-color: #E6E6FA;
   
 }
 
