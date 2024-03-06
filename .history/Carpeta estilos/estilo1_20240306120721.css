@@ -22,9 +22,6 @@ header {
   border-style: solid; /* Cambio del estilo del borde a sólido para una apariencia más nítida */
   border-width: 2px; /* Grosor del borde ajustado */
   border-color: #BDBDBD; /* Color del borde más suave */
-  display: flex; /* Utilizamos flexbox para alinear los elementos */
-  justify-content: space-between; /* Alineamos los elementos a lo largo del contenedor */
-  align-items: center; 
 }
 
 li {
