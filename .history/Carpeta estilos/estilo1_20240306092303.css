@@ -27,7 +27,7 @@ header{
 li {
     display: inline;
     float: left;
-    background-color:#FFFFFF;
+    font-style:#FFFFFF;
     font-size:20px;
     font-family:Courier;
     font-weight:bold;
@@ -44,8 +44,8 @@ li {
 a {
     display: block;
     padding: 8px;
-    background-color:#ffffff;
+    background-color:#64768D;
   }
 .active {
-    background-color: #fefefe;
+    background-color: #64768D;
   }
