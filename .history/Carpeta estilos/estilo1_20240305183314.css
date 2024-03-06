@@ -3,10 +3,10 @@ body{
     font-size:20px;
     font-family:Courier;
     font-weight:bold;
-    font-style:normal;
+    font-style:italic;
     line-height:30px;
     letter-spacing:5px;
-    text-decoration:overline;
+    text-decoration:underline;
     text-transform:capitalize;
     text-align:left;
     text-indent:30px;
