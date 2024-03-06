@@ -24,18 +24,3 @@ header{
     text-align:left;
     text-indent:30px;
 }
-li {
-    display: inline;
-  }
-li {
-    float: left;
-  }
-  
-a {
-    display: block;
-    padding: 8px;
-    background-color: #dddddd;
-  }
-.active {
-    background-color: #04AA6D;
-  }

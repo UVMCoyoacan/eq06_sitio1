@@ -1,5 +1,5 @@
 body{
-    background-color:#64768D;
+    background-color:#1B1C29;
     font-size:20px;
     font-family:Courier;
     font-weight:bold;
@@ -12,7 +12,7 @@ body{
     text-indent:30px;
 }
 header{
-    background-color:#FFFFFF;
+    background-color: #E2DEE4;
     font-size:20px;
     font-family:Courier;
     font-weight:bold;
@@ -24,18 +24,3 @@ header{
     text-align:left;
     text-indent:30px;
 }
-li {
-    display: inline;
-  }
-li {
-    float: left;
-  }
-  
-a {
-    display: block;
-    padding: 8px;
-    background-color: #dddddd;
-  }
-.active {
-    background-color: #04AA6D;
-  }
