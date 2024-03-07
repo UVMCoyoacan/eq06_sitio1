@@ -1,5 +1,5 @@
 body{
-  background-color:#fefec0be;
+  background-color:#ffffff;
   font-size:20px;
   font-family:Courier;
   font-weight:bold;
@@ -42,8 +42,8 @@ li {
   text-transform:capitalize;
   text-align:left;
   text-indent:30px;
-  border-style:inherit;
-  border-color: #303130;
+  border-style:dashed;
+  border-color: #b9e49e;
   padding: 12px;
 }
 

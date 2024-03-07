@@ -31,7 +31,7 @@ header{
 li {
   display: inline;
   float: left;
-  background-color:#6cbe39;
+  background-color:#95df67;
   font-size:20px;
   font-family:Courier;
   font-weight:bold;
@@ -42,7 +42,7 @@ li {
   text-transform:capitalize;
   text-align:left;
   text-indent:30px;
-  border-style:inherit;
+  border-style:hidden;
   border-color: #303130;
   padding: 12px;
 }

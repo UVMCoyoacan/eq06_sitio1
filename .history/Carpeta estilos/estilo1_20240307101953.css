@@ -1,5 +1,5 @@
 body{
-  background-color:#fefec0be;
+  background-color:#ffffff;
   font-size:20px;
   font-family:Courier;
   font-weight:bold;
@@ -10,7 +10,6 @@ body{
   text-transform:capitalize;
   text-align:left;
   text-indent:30px;
-
 }
 header{
   background-color:#6cbe39;
@@ -22,16 +21,15 @@ header{
   letter-spacing:5px;
   text-transform:capitalize;
   text-align:left;
-  text-indent:60px;
+  text-indent:30px;
   border-style: outset;
   border-color: #000000;
-  border-width: .4ch;
   
 }
 li {
   display: inline;
   float: left;
-  background-color:#6cbe39;
+  background-color:#D8D8D8;
   font-size:20px;
   font-family:Courier;
   font-weight:bold;
@@ -42,16 +40,13 @@ li {
   text-transform:capitalize;
   text-align:left;
   text-indent:30px;
-  border-style:inherit;
-  border-color: #303130;
-  padding: 12px;
 }
 
 
 a {
   display: block;
   padding: 8px;
-  background-color:#6cbe39;
+  background-color:#D8D8D8;
 }
 .active {
   background-color:transparent;

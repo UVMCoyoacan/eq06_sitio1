@@ -25,13 +25,13 @@ header{
   text-indent:60px;
   border-style: outset;
   border-color: #000000;
-  border-width: .4ch;
+  border-width: .5ch;
   
 }
 li {
   display: inline;
   float: left;
-  background-color:#6cbe39;
+  background-color:#79cf43;
   font-size:20px;
   font-family:Courier;
   font-weight:bold;
@@ -42,8 +42,6 @@ li {
   text-transform:capitalize;
   text-align:left;
   text-indent:30px;
-  border-style:inherit;
-  border-color: #303130;
   padding: 12px;
 }
 
@@ -51,7 +49,7 @@ li {
 a {
   display: block;
   padding: 8px;
-  background-color:#6cbe39;
+  background-color:#79cf43;
 }
 .active {
   background-color:transparent;

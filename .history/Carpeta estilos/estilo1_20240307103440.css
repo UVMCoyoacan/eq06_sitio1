@@ -13,7 +13,7 @@ body{
 
 }
 header{
-  background-color:#6cbe39;
+  background-color:#6cbe39d6;
   font-size:20px;
   font-family:Courier;
   font-weight:bold;
@@ -31,7 +31,7 @@ header{
 li {
   display: inline;
   float: left;
-  background-color:#6cbe39;
+  background-color:#6cbe39d6;
   font-size:20px;
   font-family:Courier;
   font-weight:bold;
@@ -42,8 +42,8 @@ li {
   text-transform:capitalize;
   text-align:left;
   text-indent:30px;
-  border-style:inherit;
-  border-color: #303130;
+  border-style:hidden;
+  border-color: #000000;
   padding: 12px;
 }
 
@@ -51,7 +51,7 @@ li {
 a {
   display: block;
   padding: 8px;
-  background-color:#6cbe39;
+  background-color:#6cbe39d6;
 }
 .active {
   background-color:transparent;
