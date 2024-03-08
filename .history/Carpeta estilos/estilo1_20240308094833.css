@@ -68,7 +68,7 @@ a {
 ul {
   margin-left: auto;
 }
-p{
+h1,h2,h3,h4,h5{
   
     font-size: 30px;
     font-family: Courier;
@@ -86,7 +86,7 @@ p{
 
     }
     
-  ol{
+  p{
     
       font-size: 20px;
       font-family: Courier;
@@ -99,18 +99,4 @@ p{
       text-indent: 30px;
       color: #2e2e2e; 
       padding-left: 40px; 
-    }
-    h1{
-      font-size: 30px;
-      font-family: Courier;
-      font-weight: bold;
-      font-style:italic;
-      line-height: 30px;
-      letter-spacing: 5px;
-      text-transform: capitalize;
-      text-align: left;
-      text-indent: 30px;
-      margin-left: auto;
-      color: #2e2e2e; 
-        background-color: #b3e64c; 
     }
