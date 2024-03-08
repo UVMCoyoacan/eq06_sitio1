@@ -10,9 +10,9 @@ body{
   text-transform:capitalize;
   text-align:left;
   text-indent:30px;
-  border-style:groove;
+  border-style: outset;
   border-color: #000000;
-  border-width: .8ch;
+  border-width: .4ch;
 
 
 }
@@ -68,7 +68,9 @@ a {
   font-style:oblique;
 
 }
-
+ul {
+  margin-left: auto;
+}
 p{
   
     font-size: 30px;
@@ -128,20 +130,4 @@ p{
       margin-top: 20px; 
       margin-bottom: 20px; 
     }
-    ul{
-      font-size: 16px;
-      font-family: Courier;
-      font-weight:200;
-      font-style:oblique;
-      line-height: 30px;
-      letter-spacing: 4px;
-      text-transform: capitalize;
-      text-align: left;
-      text-indent: 20px;
-      color: #2e2e2e; 
-      padding-left: 70px; 
-      padding-right: 70px; 
-
-    }
     
-  
