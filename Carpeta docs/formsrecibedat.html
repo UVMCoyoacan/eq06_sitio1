@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8" />  
+
+		<script type="text/javascript">
+			function getUrlVars() { //SOLO CON GET//
+			var vars = {};
+			//AGARRA LA URL//
+			var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi,
+				function (m, key, value) {
+					if (vars[key]) {
+						vars[key].push(value);
+					} else {
+						vars[key] = [value];
+					}
+				});
+			console.log(vars);
+			return vars;
+		}
+		
+				var nombre = getUrlVars()["fname"];
+				var apellido= getUrlVars()["lname"];
+				var ops=0;
+				var servicios=getUrlVars()["servicios"];
+				
+				alert("chk= " +ops+": "+ ad1);
+		</script> 
+		      
+	</head>
+<body>
+
+<h2>Pedido Recibido</h2>
+
+<p>Recibe datos</p>
+
+<h3> Cliente</h3>
+<p id="Nombre">    </p>
+
+<h4>Pedido</h4>
+<p id="detalle">   </p>
+
+<script>
+	var pnom=document.getElementById("Nombre");
+	var dclient=document.getElementById("detalle");
+	pnom.innerHTML="<i>" + nombre + " " + apellido +"</i>";
+	pnom.style="color:red;font-size:20px";
+
+	const lista = document.createElement("ul");
+
+		if (servicios) {
+			servicios = servicios.map(decodeURIComponent);
+
+			for (i = 0; i < servicios.length; i++) {
+				const elemento = document.createElement("li");
+				let txt = null;
+				switch (servicios[i]) {
+					case "servicio1":
+						txt = document.createTextNode("Desarrollo de sitio webs personalizados.");
+						break;
+					case "servicio2":
+						txt = document.createTextNode("Diseño web responsivo y adaptativo.");
+						break;
+					case "servicio3":
+						txt = document.createTextNode("Optimización para motores de búsqueda (CEO).");
+						break;
+					case "servicio4":
+						txt = document.createTextNode("Integración de sistemas de gestión de contenido (CMS).");
+						break;
+					case "servicio5":
+						txt = document.createTextNode("Desarrollo de tiendas en línea (e-commerce).");
+						break;
+					case "servicio6":
+						txt = document.createTextNode("Migración y actualización de sitios web existentes.");
+						break;
+					case "servicio7":
+						txt = document.createTextNode("Matenimiento y soporte técnico contínuo.");
+						break;
+					case "servicio8":
+						txt = document.createTextNode("Implementación y configuración de equipos de red Cisco, como Routers y Switches.");
+						break;
+					case "servicio9":
+						txt = document.createTextNode("Diseño de redes seguras.");
+						break;
+				}
+				if (txt) {
+					elemento.appendChild(txt);
+					lista.appendChild(elemento);
+				}
+			}
+			dclient.appendChild(lista);
+		} else {
+			dclient.innerHTML += "<ul><li>No aplica</li></ul>";
+		}
+
+
+</script>
+
+
+</body>
+</html>
