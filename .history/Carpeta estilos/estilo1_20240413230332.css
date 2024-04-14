@@ -185,7 +185,6 @@ p{
   }
 
   .container-carrousel{
-    position: relative;
     width: 500px;
     height: 300px;
     background-color: #e0e0e0;
@@ -206,27 +205,4 @@ p{
     width: calc(100%/4);
     height: 100%;
 
-  }
-
-  .btn-left, .btn-right{
-    display: flex;
-    position: absolute;
-    top: 50%;
-    font-size: 1.5rem;
-    background-color: transparent;
-    border-radius: 5px;
-    padding: 5px;
-    font-weight: 600;
-    cursor: pointer;
-    color: #ffffff81;
-    transform: translate(0,-50%);
-    transition: .5s ease;
-    user-select: none;
-  }
-
-  .btn-left{
-    left: 10px;
-  }
-  .btn-right{
-    right: 10px;
   }
