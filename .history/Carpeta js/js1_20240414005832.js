@@ -13,10 +13,6 @@ const btnLeft=document.querySelector(".btn-left"),
 btnLeft.addEventListener("click", e=>moveToLeft())
 btnRight.addEventListener("click", e=>moveToRight())
 
-setInterval(()=>{
-    moveToRight()
-},3000);
-
 let operacion=0,
     counter=0;
     widthImg=100/sliderSection.length;
@@ -27,7 +23,6 @@ function moveToRight() {
         operacion=0;
         counter=0;
         slider.style.transform = `translate(-${operacion}%)`;
-        slider.style.transition= "none"
     }
     else{
     counter ++;
@@ -41,9 +36,10 @@ function moveToLeft(){
     counter --;
     if (counter<0){
         counter= sliderSection.length-1;
-        operacion=widthImg*(sliderSection.length-1)
+        operacion=widthImg*(sliderSection.length)
         slider.style.transform = `translate(-${operacion}%)`;
-        slider.style.transition= "none"     
+
+        
     }
     else{
         operacion=operacion-widthImg;

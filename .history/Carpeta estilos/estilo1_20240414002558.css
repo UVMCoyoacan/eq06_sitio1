@@ -199,7 +199,8 @@ p{
     width: 400%;
     height: 100%;
     display: flex;
-    overflow: hidden;
+    border: solid thin red;
+    transform: translateX(-50%);
   }
 
   .slider-section{
