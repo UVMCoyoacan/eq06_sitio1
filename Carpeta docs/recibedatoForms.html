@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		
+
+        <link rel="stylesheet" href="../Carpeta estilos/estilo1.css">
+		<meta charset="UTF-8" />  
+
+		<script type="text/javascript">
+			function getUrlVars() { //SOLO CON GET//
+			var vars = {};
+			//AGARRA LA URL//
+			var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi,
+				function (m, key, value) {
+					if (vars[key]) {
+						vars[key].push(value);
+					} else {
+						vars[key] = [value];
+					}
+				});
+			console.log(vars);
+			return vars;
+		}
+		
+				var nombre = getUrlVars()["fname"];
+				var correo = getUrlVars()["correoelect"];
+				var ops=0;
+				var servicios=getUrlVars()["servicios"];
+				
+				alert("chk= " +ops+": "+ ad1);
+		</script> 
+		      
+	</head>
+<body>
+
+<h2>Pedido Recibido</h2>
+
+<h3> Cliente</h3>
+<p id="Nombre">    </p>
+
+<h4>Pedido</h4>
+<p id="detalle">   </p>
+
+<script>
+	var datosclient=document.getElementById("Nombre");
+	var dclient=document.getElementById("detalle");
+	datosclient.innerHTML="<i>" + nombre + "<br>" + correo +"</i>";
+	datosclient.style="color:red;font-size:20px;text-align: center";
+
+	const lista = document.createElement("ul");
+
+		if (servicios) {
+			servicios = servicios.map(decodeURIComponent);
+
+			for (i = 0; i < servicios.length; i++) {
+				const elemento = document.createElement("li");
+				let txt = null;
+				switch (servicios[i]) {
+					case "servicio1":
+						txt = document.createTextNode("Milanesa --> $45.00");
+						break;
+					case "servicio2":
+						txt = document.createTextNode("Pechuga asada --> $35.00 ");
+						break;
+					case "servicio3":
+						txt = document.createTextNode("Hamburguesa --> $30.00");
+						break;
+					case "servicio4":
+						txt = document.createTextNode("Enchiladas --> $60.00");
+						break;
+					case "servicio5":
+						txt = document.createTextNode("Maruchan --> $25.00");
+						break;
+					case "servicio6":
+						txt = document.createTextNode("Agua de jamaica --> $25.00");
+						break;
+					case "servicio7":
+						txt = document.createTextNode("Agua de limon --> $25.00");
+						break;
+					case "servicio8":
+						txt = document.createTextNode("Agua de horchata --> $25.00");
+						break;
+					case "servicio9":
+						txt = document.createTextNode("Coca-Cola --> $30.00");
+						break;
+                    case "servicio10":
+						txt = document.createTextNode("Agua natural --> $15.00");
+						break;
+                    case "servicio11":
+						txt = document.createTextNode("Flan --> $20.00");
+						break;
+                    case "servicio12":
+						txt = document.createTextNode("Cheescake --> $45.00");
+						break;
+                    case "servicio13":
+						txt = document.createTextNode("Fresas con crema --> $50.00");
+						break;
+                    case "servicio14":
+						txt = document.createTextNode("Pay de limon --> $45.00");
+						break;
+                    case "servicio15":
+						txt = document.createTextNode("Platanos fritos preparados --> $30.00");
+						break;
+				}
+				if (txt) {
+					elemento.appendChild(txt);
+					lista.appendChild(elemento);
+				}
+			}
+			dclient.appendChild(lista);
+		} else {
+			dclient.innerHTML += "<ul><li>No aplica</li></ul>";
+		}
+
+
+</script>
+
+
+</body>
+</html>

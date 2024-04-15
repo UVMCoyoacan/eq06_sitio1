@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		
+
+        <link rel="stylesheet" href="../Carpeta estilos/estilo1.css">
+		<meta charset="UTF-8" />  
+
+		<script type="text/javascript">
+			function getUrlVars() { //SOLO CON GET//
+			var vars = {};
+			//AGARRA LA URL//
+			var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi,
+				function (m, key, value) {
+					if (vars[key]) {
+						vars[key].push(value);
+					} else {
+						vars[key] = [value];
+					}
+				});
+			console.log(vars);
+			return vars;
+		}
+		
+				var nombre = getUrlVars()["fname"];
+				var correo = getUrlVars()["correoelect"];
+				var numerotel=getUrlVars()["numerocontacto"];
+                var comentarios=getUrlVars()["comentario"];
+				
+		</script> 
+		      
+	</head>
+<body>
+
+<h2>Comentario Recibido</h2>
+
+<h3> Cliente</h3>
+<p id="Nombre">    </p>
+
+<h4>Queja, comentario o sugerencia</h4>
+<p id="detalle">   </p>
+
+<script>
+	var datosclient=document.getElementById("Nombre");
+	var commentclient=document.getElementById("detalle");
+	datosclient.innerHTML="<i>" + nombre + " <br> " + correo + "<br>" + numerotel  + "<br>" + "</i>";
+	datosclient.style="color:red;font-size:20px;text-align: center";
+    commentclient.innerHTML="<i>" + comentarios + "</i>";
+	commentclient.style="color:red;font-size:20px;text-align: center";
+
+
+</script>
+
+
+</body>
+</html>

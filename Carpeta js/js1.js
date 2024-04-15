@@ -5,6 +5,13 @@ function redirigirTerminos() {
     window.location.href = '../terminos.html';
 }
 
+function redirigirFormsPedido() {
+    window.location.href = '../Carpeta docs/enviadatosForms.html';
+}
+function redirigirFormsComentarios(){
+    window.location.href = '../Carpeta docs/formscomentarios.html';
+}
+
 const btnLeft=document.querySelector(".btn-left"), 
     btnRight=document.querySelector(".btn-right"),
     slider=document.querySelector("#slider"),
